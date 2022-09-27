@@ -1,0 +1,34 @@
+:root {
+    --fuentePrincipal: 'Open Sans', sans-serif; 
+    --fuenteHeadings:  'Raleway', sans-serif;
+
+    /** Colores **/
+    --red: #a61206;
+    --orange: #f19f30;
+    --green: #127427;
+
+    --white: #FFFFFF;
+    --black: #000000;
+  
+
+    --container: 1200px;
+}
+.wp-block-boxcolor-boxes {
+    height: 45rem;
+    padding: 4rem 2rem;
+    display: grid;
+    align-items: center;
+    border-radius: 15px;
+}
+.wp-block-boxcolor-boxes h2 {
+    font-size: 3rem;
+    font-family: var(--fuenteHeadings);
+    margin: 0;
+    font-weight: 700;
+}
+.wp-block-boxcolor-boxes .box p {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+

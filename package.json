@@ -1,0 +1,17 @@
+{
+  "name": "themesbloks-gutenberg",
+  "version": "1.0.0",
+  "description": "Agrega bloques de Gutenberg",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Emerson Israel Sanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/webpack": "^6.3.1",
+    "@wordpress/scripts": "^24.2.0",
+    "url-loader": "^4.1.1"
+  }
+}

@@ -1,0 +1,98 @@
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/editor.css ***!
+  \********************************************************************************************************************************************************************/
+.wp-block {
+    max-width: 1080px;
+}
+.block-editor-writing-flow {
+    padding-left: 3rem;
+}
+.box {
+    height: 24rem;
+    padding: 4rem 2rem;
+}
+
+.texto-primario {
+    color: var(--rojo);
+}
+
+
+/** bottons **/
+.boton {
+    padding: 1rem 3rem;
+    display: block;
+    flex: 1;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: var(--fuenteHeadings);
+    text-transform: uppercase;
+    border-radius: .5rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton-primario {
+    background-color: var(--naranja);
+    color: var(--blanco);
+}
+.boton-secundario {
+    background-color: var(--rojo);
+    color: var(--blanco);
+}
+.boton-primario:hover, 
+.boton-secundario:hover {
+    color: var(--blanco);
+}
+
+.hero-block .components-icon-button .dashicon {
+    color: var(--blanco);
+}
+
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/styles.css ***!
+  \********************************************************************************************************************************************************************/
+:root {
+    --fuentePrincipal: 'Open Sans', sans-serif; 
+    --fuenteHeadings:  'Raleway', sans-serif;
+
+    /** Colores **/
+    --red: #a61206;
+    --orange: #f19f30;
+    --green: #127427;
+
+    --white: #FFFFFF;
+    --black: #000000;
+  
+
+    --container: 1200px;
+}
+.wp-block-boxcolor-boxes {
+    height: 45rem;
+    padding: 4rem 2rem;
+    display: grid;
+    align-items: center;
+    border-radius: 15px;
+}
+.wp-block-boxcolor-boxes h2 {
+    font-size: 3rem;
+    font-family: var(--fuenteHeadings);
+    margin: 0;
+    font-weight: 700;
+}
+.wp-block-boxcolor-boxes .box p {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+
+
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,54 @@
+.wp-block {
+    max-width: 1080px;
+}
+.block-editor-writing-flow {
+    padding-left: 3rem;
+}
+.box {
+    height: 24rem;
+    padding: 4rem 2rem;
+}
+
+.texto-primario {
+    color: var(--rojo);
+}
+
+
+/** bottons **/
+.boton {
+    padding: 1rem 3rem;
+    display: block;
+    flex: 1;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: var(--fuenteHeadings);
+    text-transform: uppercase;
+    border-radius: .5rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton-primario {
+    background-color: var(--naranja);
+    color: var(--blanco);
+}
+.boton-secundario {
+    background-color: var(--rojo);
+    color: var(--blanco);
+}
+.boton-primario:hover, 
+.boton-secundario:hover {
+    color: var(--blanco);
+}
+
+.hero-block .components-icon-button .dashicon {
+    color: var(--blanco);
+}
