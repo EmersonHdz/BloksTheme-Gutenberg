@@ -10,25 +10,54 @@
     --white: #FFFFFF;
     --black: #000000;
   
+     /* utilidades */
+     --box-shadow:  0 15px 25px -10px rgba(0, 0, 0, .50);
 
     --container: 1200px;
 }
-.wp-block-boxcolor-boxes {
-    height: 45rem;
+
+.wp-block-myboxes-boxes {
+    height: 30rem!important;
     padding: 4rem 2rem;
     display: grid;
     align-items: center;
     border-radius: 15px;
+    box-shadow: 0 15px 25px -10px rgba(0, 0, 0, .50);
+    transition-property: transform;
+    transition-duration: 300ms;
 }
-.wp-block-boxcolor-boxes h2 {
+
+.wp-block-myboxes-boxes:hover {
+      transform: scale(1.1);
+}
+.wp-block-myboxes-boxes h2 {
     font-size: 3rem;
     font-family: var(--fuenteHeadings);
     margin: 0;
     font-weight: 700;
 }
-.wp-block-boxcolor-boxes .box p {
+.wp-block-myboxes-boxes p {
     font-size: 2rem;
+    font-family: var(--fuentePrincipal);
     line-height: 1;
 }
+
+
+@media screen and (max-width:767px) {
+    .wp-block-myboxes-boxes {
+    transition-property: transform;
+    transition-duration: 300ms;
+    }
+
+
+    .wp-block-myboxes-boxes:hover {
+        transform: scale(1.1);
+  }
+
+  .wp-block-myboxes-boxes{
+    height: 25rem;
+  }
+}
+
 
 

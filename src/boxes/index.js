@@ -111,7 +111,7 @@ registerBlockType('myboxes/boxes', {
                         <RichText 
                             placeholder="Add the Text"
                             onChange={onChangeTextoBox}
-                            value={TextColor}
+                            value={textoBox}
                         />
                     </p>
                 </div>
@@ -130,7 +130,7 @@ registerBlockType('myboxes/boxes', {
                     <RichText.Content value={headingBox} />
                 </h2>
                 <p style={{ color: TextColor }}>
-                    <RichText.Content value={TextColor} />
+                    <RichText.Content value={textoBox} />
                 </p>
             </div>
         )

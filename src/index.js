@@ -1,3 +1,3 @@
 import "./boxes";
-import "./editor.css";
 import "./styles.css";
+import "./editor.css";
